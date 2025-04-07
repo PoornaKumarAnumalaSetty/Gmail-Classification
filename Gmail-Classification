@@ -1,1 +1,28 @@
+📧 Email Categorizer & Backup System
+The Email Categorizer & Backup System is a smart Python-based project designed to streamline and secure your email management process. This tool utilizes Machine Learning techniques—specifically Naive Bayes Classification with TF-IDF Vectorization—to automatically categorize incoming emails into various types (e.g., Work, Personal, Promotions, etc.).
 
+Beyond categorization, the system ensures that every email is safely backed up in both a raw format and a structured Excel sheet, allowing for easy access, organization, and future reference.
+
+🚀 Features
+✉️ Automatically fetches emails using IMAP protocol.
+
+🧠 Categorizes emails using a Naive Bayes Classifier with TF-IDF.
+
+📊 Stores categorized emails in an Excel file with clear formatting.
+
+💾 Backs up raw email content for secure long-term storage.
+
+🔄 Easily customizable to add more categories or logic.
+
+🔒 Keeps sensitive data private by storing backups locally.
+
+🧩 Technologies Used
+Python
+
+Scikit-learn for ML model
+
+Pandas for data manipulation and Excel writing
+
+IMAPClient & email libraries for email extraction
+
+OpenPyXL for Excel file operations
